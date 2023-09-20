@@ -3,6 +3,7 @@ name: CI
 on:
   push:
     branches:
+      - 'update-lockfile'
       - main
       - '[0-9]+.[0-9]+.x'
   pull_request:
